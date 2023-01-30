@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    password: Chords@12!
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
